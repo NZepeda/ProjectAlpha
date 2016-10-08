@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B494C951DA9969400AD02F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B494C941DA9969400AD02F9 /* AppDelegate.swift */; };
-		6B494C971DA9969400AD02F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B494C961DA9969400AD02F9 /* ViewController.swift */; };
+		6B494C971DA9969400AD02F9 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B494C961DA9969400AD02F9 /* LandingPageViewController.swift */; };
 		6B494C9A1DA9969400AD02F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B494C981DA9969400AD02F9 /* Main.storyboard */; };
 		6B494C9C1DA9969400AD02F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B494C9B1DA9969400AD02F9 /* Assets.xcassets */; };
 		6B494C9F1DA9969400AD02F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B494C9D1DA9969400AD02F9 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		6B494C911DA9969400AD02F9 /* ProjectAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B494C941DA9969400AD02F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B494C961DA9969400AD02F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B494C961DA9969400AD02F9 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		6B494C991DA9969400AD02F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B494C9B1DA9969400AD02F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B494C9E1DA9969400AD02F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6B494C941DA9969400AD02F9 /* AppDelegate.swift */,
-				6B494C961DA9969400AD02F9 /* ViewController.swift */,
+				6B494C961DA9969400AD02F9 /* LandingPageViewController.swift */,
 				6B494C981DA9969400AD02F9 /* Main.storyboard */,
 				6B494C9B1DA9969400AD02F9 /* Assets.xcassets */,
 				6B494C9D1DA9969400AD02F9 /* LaunchScreen.storyboard */,
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					6B494C901DA9969400AD02F9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S3A4BSTJ8Y;
 					};
 					6B494CA41DA9969400AD02F9 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B494C971DA9969400AD02F9 /* ViewController.swift in Sources */,
+				6B494C971DA9969400AD02F9 /* LandingPageViewController.swift in Sources */,
 				6B494C951DA9969400AD02F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ProjectAlpha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nestorzepeda.ProjectAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ProjectAlpha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nestorzepeda.ProjectAlpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
