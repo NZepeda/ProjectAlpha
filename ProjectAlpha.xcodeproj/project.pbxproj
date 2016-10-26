@@ -14,6 +14,9 @@
 		6B494C9F1DA9969400AD02F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B494C9D1DA9969400AD02F9 /* LaunchScreen.storyboard */; };
 		6B494CAA1DA9969400AD02F9 /* ProjectAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B494CA91DA9969400AD02F9 /* ProjectAlphaTests.swift */; };
 		6B494CB51DA9969400AD02F9 /* ProjectAlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B494CB41DA9969400AD02F9 /* ProjectAlphaUITests.swift */; };
+		6B6689561DC084CA00C544B4 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6689551DC084CA00C544B4 /* CategoryTableViewCell.swift */; };
+		6B6689591DC090E800C544B4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6689581DC090E800C544B4 /* Category.swift */; };
+		6B66895B1DC0977800C544B4 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66895A1DC0977800C544B4 /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6B494CB01DA9969400AD02F9 /* ProjectAlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectAlphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B494CB41DA9969400AD02F9 /* ProjectAlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAlphaUITests.swift; sourceTree = "<group>"; };
 		6B494CB61DA9969400AD02F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6689551DC084CA00C544B4 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		6B6689581DC090E800C544B4 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		6B66895A1DC0977800C544B4 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		6B494C931DA9969400AD02F9 /* ProjectAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				6B6689571DC090CB00C544B4 /* Models */,
+				6B6689541DC084A100C544B4 /* Custom Cells */,
 				6B494C941DA9969400AD02F9 /* AppDelegate.swift */,
 				6B494C961DA9969400AD02F9 /* LandingPageViewController.swift */,
 				6B494C981DA9969400AD02F9 /* Main.storyboard */,
 				6B494C9B1DA9969400AD02F9 /* Assets.xcassets */,
 				6B494C9D1DA9969400AD02F9 /* LaunchScreen.storyboard */,
 				6B494CA01DA9969400AD02F9 /* Info.plist */,
+				6B66895A1DC0977800C544B4 /* CategoryTableViewController.swift */,
 			);
 			path = ProjectAlpha;
 			sourceTree = "<group>";
@@ -123,6 +132,22 @@
 				6B494CB61DA9969400AD02F9 /* Info.plist */,
 			);
 			path = ProjectAlphaUITests;
+			sourceTree = "<group>";
+		};
+		6B6689541DC084A100C544B4 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6B6689551DC084CA00C544B4 /* CategoryTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		6B6689571DC090CB00C544B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B6689581DC090E800C544B4 /* Category.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +286,9 @@
 			files = (
 				6B494C971DA9969400AD02F9 /* LandingPageViewController.swift in Sources */,
 				6B494C951DA9969400AD02F9 /* AppDelegate.swift in Sources */,
+				6B66895B1DC0977800C544B4 /* CategoryTableViewController.swift in Sources */,
+				6B6689561DC084CA00C544B4 /* CategoryTableViewCell.swift in Sources */,
+				6B6689591DC090E800C544B4 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
