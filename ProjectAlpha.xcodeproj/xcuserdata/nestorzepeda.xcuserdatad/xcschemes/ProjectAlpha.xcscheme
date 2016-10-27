@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B494C901DA9969400AD02F9"
-               BuildableName = "ProjectAlpha.app"
+               BuildableName = "Lendr.app"
                BlueprintName = "ProjectAlpha"
                ReferencedContainer = "container:ProjectAlpha.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B494C901DA9969400AD02F9"
-            BuildableName = "ProjectAlpha.app"
+            BuildableName = "Lendr.app"
             BlueprintName = "ProjectAlpha"
             ReferencedContainer = "container:ProjectAlpha.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B494C901DA9969400AD02F9"
-            BuildableName = "ProjectAlpha.app"
+            BuildableName = "Lendr.app"
             BlueprintName = "ProjectAlpha"
             ReferencedContainer = "container:ProjectAlpha.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6B494C901DA9969400AD02F9"
-            BuildableName = "ProjectAlpha.app"
+            BuildableName = "Lendr.app"
             BlueprintName = "ProjectAlpha"
             ReferencedContainer = "container:ProjectAlpha.xcodeproj">
          </BuildableReference>

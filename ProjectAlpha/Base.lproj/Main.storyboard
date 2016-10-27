@@ -51,35 +51,35 @@
         <!--Category Table View Controller-->
         <scene sceneID="Gda-iZ-Ep0">
             <objects>
-                <tableViewController id="MEm-ID-4Xx" customClass="CategoryTableViewController" customModule="ProjectAlpha" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="84" sectionHeaderHeight="28" sectionFooterHeight="28" id="tLG-Mn-aar">
+                <tableViewController id="MEm-ID-4Xx" customClass="CategoryTableViewController" customModule="Lendr" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="176" sectionHeaderHeight="28" sectionFooterHeight="28" id="tLG-Mn-aar">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="84" id="k7a-JA-jMs" customClass="CategoryTableViewCell" customModule="ProjectAlpha" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="92" width="375" height="84"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="135" id="k7a-JA-jMs" customClass="CategoryTableViewCell" customModule="Lendr" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="375" height="135"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k7a-JA-jMs" id="Qub-5q-n2s">
-                                    <frame key="frameInset" width="375" height="84"/>
+                                    <frame key="frameInset" width="375" height="135"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MPQ-h3-vZa"/>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="He7-ZT-e1u">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="MPQ-h3-vZa" firstAttribute="leading" secondItem="Qub-5q-n2s" secondAttribute="leading" constant="8" id="EwC-HL-Vcc"/>
-                                        <constraint firstItem="He7-ZT-e1u" firstAttribute="leading" secondItem="Qub-5q-n2s" secondAttribute="leading" constant="133" id="TbU-8P-RVx"/>
-                                        <constraint firstAttribute="trailing" secondItem="He7-ZT-e1u" secondAttribute="trailing" constant="134" id="gml-ma-Ogj"/>
+                                        <constraint firstItem="He7-ZT-e1u" firstAttribute="leading" secondItem="Qub-5q-n2s" secondAttribute="leading" constant="119" id="TbU-8P-RVx"/>
+                                        <constraint firstAttribute="trailing" secondItem="He7-ZT-e1u" secondAttribute="trailing" constant="118" id="gml-ma-Ogj"/>
                                         <constraint firstAttribute="bottom" secondItem="He7-ZT-e1u" secondAttribute="bottom" constant="31" id="jYw-q1-cYX"/>
                                         <constraint firstAttribute="trailing" secondItem="MPQ-h3-vZa" secondAttribute="trailing" constant="8" id="mHf-f3-a60"/>
                                         <constraint firstItem="He7-ZT-e1u" firstAttribute="top" secondItem="Qub-5q-n2s" secondAttribute="top" constant="31" id="rTc-76-5fY"/>
                                         <constraint firstAttribute="bottom" secondItem="MPQ-h3-vZa" secondAttribute="bottom" id="ta7-g2-6aY"/>
-                                        <constraint firstItem="MPQ-h3-vZa" firstAttribute="top" secondItem="Qub-5q-n2s" secondAttribute="top" id="xBR-o5-3Tc"/>
+                                        <constraint firstItem="MPQ-h3-vZa" firstAttribute="top" secondItem="Qub-5q-n2s" secondAttribute="top" constant="7" id="xBR-o5-3Tc"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
