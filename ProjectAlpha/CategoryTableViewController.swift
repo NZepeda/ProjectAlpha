@@ -1,10 +1,3 @@
-//
-//  CategoryTableViewController.swift
-//  ProjectAlpha
-//
-//  Created by Nestor Zepeda on 10/26/16.
-//  Copyright © 2016 Alpha. All rights reserved.
-//
 
 import UIKit
 
