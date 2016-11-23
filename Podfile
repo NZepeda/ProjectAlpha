@@ -1,6 +1,15 @@
 use_frameworks!
 
-pod 'RealmSwift'
+target 'ProjectAlpha' do
+	pod 'RealmSwift'
+	pod 'AWSCognito'
+	pod 'AWSCognitoIdentityProvider'
+	pod 'AWSDynamoDB'
+	pod 'AWSElasticLoadBalancing'
+	pod 'AWSLambda'
+	pod 'AWSMobileAnalytics'
+	pod 'AWSS3'
+end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
